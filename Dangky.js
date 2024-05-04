@@ -4,8 +4,7 @@ function getValue(id) {
 function validate() {
     let password = getValue('password');
     let repassword = getValue('repassword');
-    let match = true;
-
+    let match = true;   
     if (password != repassword) {
         alert('Mật khẩu không khớp');
         match = false;
